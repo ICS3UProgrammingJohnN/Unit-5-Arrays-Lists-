@@ -1,0 +1,9 @@
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Ngundeng, John (s251823)\Unit 5 (Arrays & Lists)\ArrayAverageJohnN\ArrayAverageJohnN\bin\Debug\ArrayAverageJohnN.exe.config
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Ngundeng, John (s251823)\Unit 5 (Arrays & Lists)\ArrayAverageJohnN\ArrayAverageJohnN\bin\Debug\ArrayAverageJohnN.exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Ngundeng, John (s251823)\Unit 5 (Arrays & Lists)\ArrayAverageJohnN\ArrayAverageJohnN\bin\Debug\ArrayAverageJohnN.pdb
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Ngundeng, John (s251823)\Unit 5 (Arrays & Lists)\ArrayAverageJohnN\ArrayAverageJohnN\obj\Debug\ArrayAverageJohnN.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Ngundeng, John (s251823)\Unit 5 (Arrays & Lists)\ArrayAverageJohnN\ArrayAverageJohnN\obj\Debug\ArrayAverageJohnN.frmArrayAverage.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Ngundeng, John (s251823)\Unit 5 (Arrays & Lists)\ArrayAverageJohnN\ArrayAverageJohnN\obj\Debug\ArrayAverageJohnN.Properties.Resources.resources
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Ngundeng, John (s251823)\Unit 5 (Arrays & Lists)\ArrayAverageJohnN\ArrayAverageJohnN\obj\Debug\ArrayAverageJohnN.csproj.GenerateResource.Cache
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Ngundeng, John (s251823)\Unit 5 (Arrays & Lists)\ArrayAverageJohnN\ArrayAverageJohnN\obj\Debug\ArrayAverageJohnN.exe
+N:\StuShare\Semester 1 - Fall 2018\ICS3U Programming\Ngundeng, John (s251823)\Unit 5 (Arrays & Lists)\ArrayAverageJohnN\ArrayAverageJohnN\obj\Debug\ArrayAverageJohnN.pdb
