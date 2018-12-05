@@ -3,7 +3,7 @@
  * Created on: november 29, 2018
  * Created for: ICS3U Programming
  * Daily Assignment – Day #36 - Introduction to Arrays
- * This program...
+ * This program generates random numbers then calculates the average
 */
 using System;
 using System.Collections.Generic;
