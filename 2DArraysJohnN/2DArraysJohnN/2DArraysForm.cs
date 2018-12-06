@@ -54,6 +54,8 @@ namespace _2DArraysJohnN
 
             // insert the string into the textbox
             this.lstValues.Items.Add (aPieceOfText);
+
+
         }
     }
 }
