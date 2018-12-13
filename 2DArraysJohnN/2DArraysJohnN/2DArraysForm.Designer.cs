@@ -34,7 +34,7 @@
             this.numWidth = new System.Windows.Forms.NumericUpDown();
             this.btnCreate = new System.Windows.Forms.Button();
             this.lblAverage = new System.Windows.Forms.Label();
-            this.lstValues = new System.Windows.Forms.ListBox();
+            this.txtValues = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.numLength)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numWidth)).BeginInit();
             this.SuspendLayout();
@@ -90,22 +90,20 @@
             this.lblAverage.TabIndex = 6;
             this.lblAverage.Text = " ";
             // 
-            // lstValues
+            // txtValues
             // 
-            this.lstValues.FormattingEnabled = true;
-            this.lstValues.ItemHeight = 26;
-            this.lstValues.Location = new System.Drawing.Point(60, 179);
-            this.lstValues.Name = "lstValues";
-            this.lstValues.Size = new System.Drawing.Size(378, 160);
-            this.lstValues.TabIndex = 5;
+            this.txtValues.Location = new System.Drawing.Point(60, 236);
+            this.txtValues.Name = "txtValues";
+            this.txtValues.Size = new System.Drawing.Size(378, 33);
+            this.txtValues.TabIndex = 7;
             // 
             // frm2DArrays
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 26F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(493, 430);
+            this.Controls.Add(this.txtValues);
             this.Controls.Add(this.lblAverage);
-            this.Controls.Add(this.lstValues);
             this.Controls.Add(this.btnCreate);
             this.Controls.Add(this.numWidth);
             this.Controls.Add(this.numLength);
@@ -130,7 +128,7 @@
         private System.Windows.Forms.NumericUpDown numWidth;
         private System.Windows.Forms.Button btnCreate;
         private System.Windows.Forms.Label lblAverage;
-        private System.Windows.Forms.ListBox lstValues;
+        private System.Windows.Forms.TextBox txtValues;
     }
 }
 

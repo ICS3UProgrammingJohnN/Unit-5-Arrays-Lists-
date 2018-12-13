@@ -31,8 +31,6 @@ namespace _2DArraysJohnN
             // declare the array with the desired width and length
             int[,] a2DArray = new int[width, length];
 
-            //
-            this.lstValues.Items.Clear();
             
             // loop through each element in the length
             for (int widthCounter = 0; widthCounter < width; widthCounter++)
@@ -49,11 +47,11 @@ namespace _2DArraysJohnN
                     aPieceOfText = aPieceOfText + " " + aRandomNumber;
                 }
                 // add a line break to th end of the line to show a new row in the string 
-                aPieceOfText = aPieceOfText + "\r" + "\n";
+                aPieceOfText = aPieceOfText + Environment.NewLine;
             }
 
             // insert the string into the textbox
-            this.lstValues.Items.Add (aPieceOfText);
+            this.txtValues.Text = aPieceOfText;
 
 
         }

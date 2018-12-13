@@ -87,9 +87,8 @@
             this.lblAverage.AutoSize = true;
             this.lblAverage.Location = new System.Drawing.Point(112, 446);
             this.lblAverage.Name = "lblAverage";
-            this.lblAverage.Size = new System.Drawing.Size(152, 26);
+            this.lblAverage.Size = new System.Drawing.Size(0, 26);
             this.lblAverage.TabIndex = 5;
-            this.lblAverage.Text = "The average is :5";
             // 
             // frmLists
             // 
@@ -103,7 +102,7 @@
             this.Controls.Add(this.lblMark);
             this.Controls.Add(this.txtMark);
             this.Font = new System.Drawing.Font("Palatino Linotype", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "frmLists";
             this.Text = "List Average";
             this.ResumeLayout(false);

@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Created by: john Ngundeng
+ * Created on: December 6, 2018
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #36 - Introduction to Arrays
+ * This program calculates the average mark using lists
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,7 +24,7 @@ namespace ListsJohnN
             InitializeComponent();
 
         }
-
+        // creating global variable
         List<int> myListOfIntegers = new List<int>();
 
         private void btnEnter_Click(object sender, EventArgs e)
@@ -55,7 +62,22 @@ namespace ListsJohnN
 
         private void btnCalculateAverage_Click(object sender, EventArgs e)
         {
-            
+            // declaring variables
+            int average = 0;
+            int sum = 0;
+            int counter;
+
+            // calculate the sum of all the values in the list
+            for(counter = 0; counter < myListOfIntegers.Count(); counter++)
+            {
+                sum = sum + myListOfIntegers[counter];
+            }
+
+            // calculate the average
+            average = sum / myListOfIntegers.Count();
+
+            // display the average to the user
+            this.lblAverage.Text = "The average is: " + average; 
         }
     }
 }
