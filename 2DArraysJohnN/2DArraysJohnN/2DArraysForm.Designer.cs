@@ -93,8 +93,9 @@
             // txtValues
             // 
             this.txtValues.Location = new System.Drawing.Point(60, 236);
+            this.txtValues.Multiline = true;
             this.txtValues.Name = "txtValues";
-            this.txtValues.Size = new System.Drawing.Size(378, 33);
+            this.txtValues.Size = new System.Drawing.Size(378, 131);
             this.txtValues.TabIndex = 7;
             // 
             // frm2DArrays

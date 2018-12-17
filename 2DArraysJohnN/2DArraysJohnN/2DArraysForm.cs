@@ -20,9 +20,10 @@ namespace _2DArraysJohnN
         private void btnCreate_Click(object sender, EventArgs e)
         {
             // declare local and global variables 
-            int width, length, aRandomNumber;
+            int width, length, aRandomNumber, total = 0, average;
             Random randomNumberGenerator = new Random();
             string aPieceOfText = null;
+
 
             // get the desierd width and length from the user
             width = Convert.ToInt16(this.numWidth.Value);
@@ -40,6 +41,8 @@ namespace _2DArraysJohnN
                     // get a random number between 0 and 9
                     aRandomNumber = randomNumberGenerator.Next(0, 9 + 1);
 
+                    total = total + aRandomNumber;
+
                     // insert the random number into the array and the current width and length
                     a2DArray[widthCounter, lengthCounter] = aRandomNumber;
 
@@ -47,11 +50,13 @@ namespace _2DArraysJohnN
                     aPieceOfText = aPieceOfText + " " + aRandomNumber;
                 }
                 // add a line break to th end of the line to show a new row in the string 
-                aPieceOfText = aPieceOfText + Environment.NewLine;
+                aPieceOfText = aPieceOfText + "\r" + "\n";
             }
 
             // insert the string into the textbox
             this.txtValues.Text = aPieceOfText;
+
+            average = total / a2DArray.Length;
 
 
         }
